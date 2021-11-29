@@ -75,16 +75,17 @@ a {
 .header {
   width: 100%;
   padding: 40px 0;
+  text-align: center;
 }
-.header > h1 {
+.header > div > h1 {
   display: inline;
 }
 
 #footer {
   position: absolute;
   bottom: 0;
-
   text-align: center;
   padding: 10px 20px 10px 20px;
   margin: 0;
+  width: 100vw;
 }
