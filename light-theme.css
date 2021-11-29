@@ -1,0 +1,47 @@
+body {
+  background-color: #cfcfcf;
+  color: #303030;
+}
+
+.site {
+  background-color: #151515;
+}
+
+#searchBar {
+  background-color: #cfcfcf;
+  border: 1px solid #dfdfdf;
+  color: #ffffff;
+}
+
+a {
+  color: #303030;
+}
+
+.footer {
+  background-color: #dddddd;
+}
+
+.btn-toggle {
+  box-shadow: 0px 1px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 15px;
+  border: 2px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  color: #303030;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+}
+.btn-toggle:hover {
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
+}
+.btn-toggle:active {
+  position: relative;
+  top: 1px;
+}

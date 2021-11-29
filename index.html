@@ -3,29 +3,27 @@
   <head>
     <meta charset="utf-8" />
     <title>Czarnuch.tech</title>
+    <link href="dark-theme.css" rel="stylesheet" type="text/css" id="theme-link" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.glitch.me/b79dbdfc-b511-4e64-b306-9425899fc858%2Fsearch.png?1633892612965" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://github.com/ZareMate/icons/blob/main/site.png" />
   </head>
   <body>
-    <div
-      style=" text-align: center; background-color: #222222; padding: 30px; margin: 0px;"
-    > <h1>Czarnuch</h1>
+    <div class="header">
+        <button class="btn-toggle" onclick="change()">Toggle dark mode</button><h1>Czarnuch</h1>
     </div>
     <div id="searchWrapper">
-                <input
-                    type="text"
-                    name="searchBar"
-                    id="searchBar"
-                    placeholder="search for a site"
-                />
-            </div>
-            <div class="nigger"><ul id="sites"></ul></div>
-        </div>
-    <div
-      style=" text-align: right; background-color: #222222; padding: 30px; margin: 0px;"
-    >
-      Nigger
+      <input type="text" name="searchBar" id="searchBar" placeholder="search for a site"/>
     </div>
-    <script src="app.js"></script>
+
+    <div class="sitess">
+      <ul id="sites"></ul>
+    </div>
+
+    <div id="footer">
+      <p>Nigger</p>
+    </div>
+
+    <script src="search.js"></script>
+    <script src="theme.js"></script>
   </body>
 </html>
