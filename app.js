@@ -15,7 +15,7 @@ searchBar.addEventListener('keyup', (e) => {
 
 const loadCharacters = async () => {
     try {
-        const res = await fetch('sites');
+        const res = await fetch('sites.lib');
         site = await res.json();
         displayCharacters(site);
     } catch (err) {
