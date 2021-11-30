@@ -1,5 +1,5 @@
 body {
-  background-color: #cfcfcf;
+  background-color: #ffffff;
   color: #303030;
 }
 
@@ -8,7 +8,7 @@ body {
 }
 
 #searchBar {
-  background-color: #cfcfcf;
+  background-color: #ffffff;
   border: 1px solid #dfdfdf;
   color: #ffffff;
 }
@@ -17,19 +17,21 @@ a {
   color: #303030;
 }
 
+.header {
+  background-color: #dddddd;
+}
+
 #footer {
   background-color: #dddddd;
 }
 
 .btn-toggle {
-  box-shadow: 0px 1px 0px 0px #899599;
-  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
-  background-color: #ededed;
-  border: 2px solid #d6bcd6;
-  color: #303030;
-  text-shadow: 0px 1px 0px #e1e2ed;
+  color: #000000;
+  background-color: #ffffff;
+  border: solid #000000 0px;
 }
+
 .btn-toggle:hover {
-  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
-  background-color: #bab1ba;
+  background: #e9e9e9;
+  border: solid #000000 0px;
 }
