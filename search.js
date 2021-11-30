@@ -27,9 +27,9 @@ const displayCharacters = (site) => {
     const htmlString = site
         .map((character) => {
             return `
-            <li class="character">
-                <h2><a href="${character.a}">${character.name} <img src="${character.image}" width="25" height="25""></img></a></h2>  
-            </li>
+            <div class="characters"><li class="character">
+                <h2><a href="${character.a}">${character.name} <img src="${character.image}" width="25" height="25""></img></a></h2>
+            </li></div>  
         `;
         })
         .join('');

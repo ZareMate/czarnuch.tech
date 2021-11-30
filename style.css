@@ -5,6 +5,10 @@ body {
   margin: 0 !important;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   padding: 40px;
   margin: 0 auto;
@@ -17,31 +21,6 @@ body {
   margin-top: 25px;
   margin-left: 75px;
   margin-right: 75px;
-}
-
-#sites {
-  padding-inline-start: 0;
-
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 20px;
-}
-
-#searchBar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 32px;
-  border-radius: 3px;
-  padding: 5px 10px;
-  font-size: 12px;
-}
-
-#searchWrapper {
-  margin-top: 10px;
-  position: relative;
-  align-content: center;
 }
 
 .site {
@@ -69,10 +48,6 @@ body {
   grid-area: image;
 }
 
-a {
-  text-decoration: none;
-}
-
 .header {
   width: 100%;
   padding: 0 0 40px;
@@ -80,6 +55,52 @@ a {
 }
 .header > div > h1 {
   display: inline;
+}
+
+.btn-toggle {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 100;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.btn-toggle:hover {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#sites {
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+
+#searchBar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 32px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+#searchWrapper {
+  margin-top: 10px;
+  position: relative;
+  align-content: center;
 }
 
 #btn-div {
@@ -96,25 +117,4 @@ a {
 #footer > p {
   margin-right: 30px;
   text-align: right;
-}
-
-.btn-toggle {
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  font-family: Arial;
-  font-size: 12px;
-  font-weight: 100;
-  padding: 10px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-}
-
-.btn-toggle:hover {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
 }
