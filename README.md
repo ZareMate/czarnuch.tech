@@ -1,2 +1,2 @@
-# PHtml
-A test version of my site
+# Czarnuch.tech
+A test version
