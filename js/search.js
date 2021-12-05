@@ -26,7 +26,7 @@ const displayCharacters = (site) => {
     .map((character) => {
       return `
             <div class="characters"><li class="character">
-                <h2><a href="${character.a}">${character.name} <img src="${character.image}" width="25" height="25""></img></br><p>test</p></a></h2>
+                <h2><a href="${character.a}">${character.name} <img src="${character.image}" width="25" height="25""></img></br><p>${character.desc}</p></a></h2>
             </li></div>  
         `;
     })
