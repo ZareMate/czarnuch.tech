@@ -17,6 +17,13 @@ a {
   color: #ffffff;
 }
 
+a:hover  {
+  color:#000000 !important;
+
+
+
+}
+
 .desc {
   color: #757575;
 }
@@ -39,3 +46,4 @@ a {
   background: #787878;
   border: solid #000000 0px;
 }
+
