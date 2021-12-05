@@ -9,7 +9,7 @@ a {
   text-decoration: none;
 }
 
-p {
+.characters > p {
   font-size: 12px;
 }
 
