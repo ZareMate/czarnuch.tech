@@ -13,7 +13,7 @@ searchBar.addEventListener("keyup", (e) => {
 
 const loadCharacters = async () => {
   try {
-    const res = await fetch("sites.lib");
+    const res = await fetch("/js/sites.lib");
     site = await res.json();
     displayCharacters(site);
   } catch (err) {
@@ -26,7 +26,7 @@ const displayCharacters = (site) => {
     .map((character) => {
       return `
             <div class="characters"><li class="character">
-                <h2><a href="${character.a}">${character.name} <img src="${character.image}" width="25" height="25""></img></a></h2>
+                <h2><a href="${character.a}">${character.name} <img src="${character.image}" width="25" height="25""></img></br><p class="desc">${character.desc}</p></a></h2>
             </li></div>  
         `;
     })

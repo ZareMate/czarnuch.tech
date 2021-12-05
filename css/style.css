@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+.desc {
+  font-size: 12px;
+}
+
 .container {
   padding: 40px;
   margin: 0 auto;
@@ -82,8 +86,8 @@ a {
 #sites {
   padding-inline-start: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(1, minmax(320px, 1fr));
+  grid-gap: 50px;
 }
 
 #searchBar {
@@ -115,6 +119,6 @@ a {
   width: 100vw;
 }
 #footer > p {
-  margin-right: 30px;
+  margin-right: 50px;
   text-align: right;
 }

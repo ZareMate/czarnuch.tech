@@ -10,11 +10,17 @@ body {
 #searchBar {
   background-color: #ffffff;
   border: 1px solid #dfdfdf;
-  color: #ffffff;
+  color: #202020;
 }
 
 a {
-  color: #303030;
+  color: #222222;
+}
+a:hover {
+  color: #909090 !important;
+}
+.desc {
+  color: #757575;
 }
 
 .header {
