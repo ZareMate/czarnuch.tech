@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: 11px;
+}
+
 .container {
   padding: 40px;
   margin: 0 auto;
