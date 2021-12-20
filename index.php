@@ -24,7 +24,6 @@
         </div>
     </div>
     </div>
-
     <div class="sitess">
         <ul id="sites"></ul>
     </div>
