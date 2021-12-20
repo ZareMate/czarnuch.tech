@@ -83,6 +83,28 @@ a {
   text-decoration: none;
 }
 
+.btn-2 {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 100;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.btn-2:hover {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
 #sites {
   padding-inline-start: 0;
   display: grid;
