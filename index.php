@@ -17,7 +17,7 @@
 
 <body>
     <div class="header"><br>
-        <div id="btn-div"><button class="btn-toggle" onclick="change()">Toggle nigger mode</button><button class="btn-2" onclick="change()">Admin panel</button><br></div>
+        <div id="btn-div"><button class="btn-toggle" onclick="change()">Toggle nigger mode</button><button class=" btn-2" onclick="location.href = '/admin';">Admin panel</button><br></div>
         <h1>Czarnuch.tech</h1>
         <div id="searchWrapper">
             <input type="text" name="searchBar" id="searchBar" placeholder="search for a site" />
