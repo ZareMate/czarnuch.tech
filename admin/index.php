@@ -15,15 +15,14 @@ if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany'] == true)) {
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>Osadnicy - gra przeglądarkowa</title>
+	<title>Loging into admin panel</title>
 </head>
 
 <body>
 
-	Tylko martwi ujrzeli koniec wojny - Platon<br /><br />
+	Loging into admin panel
 
-	<a href="rejestracja.php">Rejestracja - załóż darmowe konto!</a>
-	<br /><br />
+	<br /><br /><br /><br />
 
 	<form action="zaloguj.php" method="post">
 
