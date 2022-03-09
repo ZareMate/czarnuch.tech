@@ -95,9 +95,9 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 775px) {
   #sites {
-    grid-template-columns: repeat(2, minmax(320px, 1fr) !important);
+    grid-template-columns: repeat(2, minmax(320px, 1fr)) !important;
   }
 }
 @media only screen and (min-width: 1140px) {
@@ -133,7 +133,7 @@ a {
   display: grid;
   align-content: center;
   grid-template-columns: repeat(1, minmax(320px, 1fr));
-  grid-gap: 50px;
+  grid-row-gap: 50px;
 }
 
 #searchBar {

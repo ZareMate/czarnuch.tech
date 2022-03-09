@@ -2,7 +2,7 @@
 <html lang="pl">
 
 <head>
-    <link rel="icon" href="https://gdurl.com/Mwhp">
+    <link rel="icon" href="https://dl.dropboxusercontent.com/s/jwi28ataeo6fe2v/favicon.png?dl=0">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
