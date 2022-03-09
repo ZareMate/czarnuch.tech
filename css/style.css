@@ -20,16 +20,13 @@ a {
   text-align: center;
 }
 
-.characters {
-  margin: auto;
-}
-
 .character > h2 > a {
   width: 260px;
   height: 106px;
 }
 
 .character {
+  margin: auto;
   width: 260px;
   height: 106px;
 }
@@ -99,6 +96,11 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
+  #sites {
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+  }
+}
+@media only screen and (min-width: 1140px) {
   #sites {
     grid-template-columns: repeat(3, minmax(320px, 1fr)) !important;
   }
