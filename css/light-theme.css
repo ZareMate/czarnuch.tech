@@ -33,7 +33,7 @@ a:hover {
 
 .btn-toggle {
   color: #ffffff;
-  background-color: #303030;
+  background-color: #969696;
   border: solid #ffffff 0px;
 }
 
@@ -42,9 +42,13 @@ a:hover {
   border: solid #000000 0px;
 }
 
-.btn-web {
-  color: #ffffff;
-  background-color: #303030;
+.btn-web:hover > .desc {
+  color: #000000 !important;
+}
+
+:.btn-web  {
+  color: #000000;
+  background-color: #dddddd;
   border: solid #ffffff 0px;
 }
 
