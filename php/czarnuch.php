@@ -28,7 +28,7 @@
     </div>
 
     <video autoplay muted loop id="video1">
-        <source src="https://cdn.glitch.me/b79dbdfc-b511-4e64-b306-9425899fc858%2Fnaturaltanczy.mp4?v=1636024243754" type="video/mp4">
+        <source src="https://dl.dropboxusercontent.com/s/jevb6q23cmmf3mu/naturaltanczy.mp4?dl=0" type="video/mp4">
         Your browser does not support HTML5 video.
     </video>
     <script>
