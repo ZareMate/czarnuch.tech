@@ -97,7 +97,7 @@ a {
 
 @media only screen and (min-width: 768px) {
   #sites {
-    grid-template-columns: repeat(2, minmax(320px, 1fr));
+    grid-template-columns: repeat(2, minmax(320px, 1fr) !important);
   }
 }
 @media only screen and (min-width: 1140px) {
