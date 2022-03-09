@@ -20,6 +20,16 @@ a {
   text-align: center;
 }
 
+.character > h2 > a {
+  width: 260px;
+  height: 106px;
+}
+
+.character {
+  width: 260px;
+  height: 106px;
+}
+
 .sitess {
   min-height: 670px;
   margin-top: 25px;
@@ -29,6 +39,7 @@ a {
 
 .site {
   list-style-type: none;
+  list-style: none;
   border-radius: 3px;
   padding: 10px 20px;
   display: grid;
@@ -81,6 +92,12 @@ a {
   -moz-border-radius: 20px;
   border-radius: 20px;
   text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  #sites {
+    grid-template-columns: repeat(3, minmax(320px, 1fr)) !important;
+  }
 }
 
 #sites {

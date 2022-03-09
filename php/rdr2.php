@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Legendary animals in Red Dead Online</title>
     <link href="/css/rdr2.css" rel="stylesheet" type="text/css" id="theme-link" />
-    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.glitch.me/b79dbdfc-b511-4e64-b306-9425899fc858%2Fsearch.png?1633892612965" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://gdurl.com/ITif" />
     <meta name="description" content="Czarnuch i tyle ale możesz sobie obczaić">
     <meta name="keywords" content="rdr2, rdr online, red dead redemption 2, red dead redemption online">
     <meta name="author" content="ZareMate">
