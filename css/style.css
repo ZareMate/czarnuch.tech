@@ -20,6 +20,10 @@ a {
   text-align: center;
 }
 
+.characters {
+  margin: auto;
+}
+
 .character > h2 > a {
   width: 260px;
   height: 106px;
@@ -125,6 +129,7 @@ a {
 #sites {
   padding-inline-start: 0;
   display: grid;
+  align-content: center;
   grid-template-columns: repeat(1, minmax(320px, 1fr));
   grid-gap: 50px;
 }
