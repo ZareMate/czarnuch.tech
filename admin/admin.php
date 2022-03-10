@@ -6,7 +6,7 @@
 
 <body>
     <?php
-    $myfile = fopen("ips.txt", "r") or die("Unable to open file!");
+    $myfile = fopen("data.lib", "r") or die("Unable to open file!");
     echo fread($myfile, filesize("ips.txt"));
     fclose($myfile);
     ?>
