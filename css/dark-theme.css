@@ -1,0 +1,49 @@
+body {
+  background-color: #303030;
+  color: #ffffff;
+}
+
+.site {
+  background-color: #eaeaea;
+}
+
+#searchBar {
+  background-color: #303030;
+  border: 1px solid #202020;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover  {
+  color:#000000 !important;
+
+
+
+}
+
+.desc {
+  color: #757575;
+}
+
+.header {
+  background-color: #222222;
+}
+
+#footer {
+  background-color: #222222;
+}
+
+.btn-toggle {
+  color: #ffffff;
+  background-color: #303030;
+  border: solid #ffffff 0px;
+}
+
+.btn-toggle:hover {
+  background: #787878;
+  border: solid #000000 0px;
+}
+
