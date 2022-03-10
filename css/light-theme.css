@@ -17,10 +17,10 @@ a {
   color: #222222;
 }
 a:hover {
-  color: #909090 !important;
+  color: #151515;
 }
 .desc {
-  color: #757575;
+  color: #5b5b5b;
 }
 
 .header {
@@ -33,13 +33,28 @@ a:hover {
 
 .btn-toggle {
   color: #ffffff;
-  background-color: #303030;
+  background-color: #969696;
   border: solid #ffffff 0px;
 }
 
 .btn-toggle:hover {
   background: #787878;
   border: solid #000000 0px;
+}
+
+.btn-web {
+  color: #303030;
+  background-color: #dddddd;
+  border: solid #ffffff 0px;
+}
+
+.btn-web:hover {
+  background: #787878;
+  border: solid #000000 0px;
+}
+
+.btn-web:hover > .desc {
+  color: #000000 !important;
 }
 
 ::-webkit-scrollbar {

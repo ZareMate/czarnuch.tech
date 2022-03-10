@@ -1,0 +1,67 @@
+body {
+  background-color: #101010;
+  background-image: url(https://dl.dropboxusercontent.com/s/ih9l6jts8dyj75d/RDR_2_First_Look_33.jpg?dl=0);
+  color: #202020;
+  text-align: center;
+}
+h3{
+    font-family: "Roboto Condensed",sans-serif;
+}
+.box{
+    display: inline-block;
+}
+table.darkTable {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  border: 2px solid #000000;
+  background-color: #202020;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;\
+  max-width: 90% !important;
+}
+table.darkTable td,
+table.darkTable th {
+  border: 1px solid #4a4a4a;
+  padding: 3px 2px;
+}
+table.darkTable tbody td {
+  font-size: 12px;
+  color: #e6e6e6;
+}
+table.darkTable tr:nth-child(even) {
+  background: #303030;
+}
+table.darkTable thead {
+  background: #000000;
+  border-bottom: 3px solid #000000;
+}
+table.darkTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #e6e6e6;
+  text-align: center;
+  border-left: 2px solid #4a4a4a;
+}
+table.darkTable thead th:first-child {
+  border-left: none;
+}
+
+table.darkTable tfoot {
+  font-size: 12px;
+  font-weight: bold;
+  color: #e6e6e6;
+  background: #000000;
+  background: -moz-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #404040 0%,
+    #191919 66%,
+    #000000 100%
+  );
+  background: linear-gradient(to bottom, #404040 0%, #191919 66%, #000000 100%);
+  border-top: 1px solid #4a4a4a;
+}
+table.darkTable tfoot td {
+  font-size: 12px;
+}

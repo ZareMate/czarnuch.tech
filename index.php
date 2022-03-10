@@ -1,3 +1,15 @@
+<?php
+$ip_address = $_SERVER["REMOTE_ADDR"]; // user ip adderss
+$filename = "ips.txt";
+$contents = file_get_contents($filename);
+$my_arr = json_decode($contents, true);
+$agggg = "dl.dropboxusercontent.com";
+if (in_array($ip_address, $my_arr)) {
+} else {
+    $my_arr[] = $ip_address;
+    file_put_contents($filename,  json_encode($my_arr));
+}
+?>
 <!DOCTYPE html>
 <html lang="pl">
 
@@ -6,7 +18,7 @@
     <title>Czarnuch - strona główna</title>
     <link href="/css/dark-theme.css" rel="stylesheet" type="text/css" id="theme-link" />
     <link href="/css/style.css" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.glitch.me/b79dbdfc-b511-4e64-b306-9425899fc858%2Fsearch.png?1633892612965" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://dl.dropboxusercontent.com/s/gein3axaphzm6qu/site.png?dl=0" />
     <meta name="description" content="Czarnuch i tyle ale możesz sobie obczaić">
     <meta name="keywords" content="czarnuch, murzyn, tadzik">
     <meta name="robots" content="index, czarnuch, murzyn, archives" />
@@ -25,7 +37,7 @@
     </div>
     </div>
     <div class="sitess">
-        <ul id="sites"></ul>
+        <div id="sites"></div>
     </div>
     </br>
     </br>

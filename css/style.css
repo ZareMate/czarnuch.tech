@@ -20,6 +20,17 @@ a {
   text-align: center;
 }
 
+.character > h2 > a {
+  width: 260px;
+  height: 106px;
+}
+
+.character {
+  margin: auto;
+  width: 260px;
+  height: 106px;
+}
+
 .sitess {
   min-height: 670px;
   margin-top: 25px;
@@ -29,6 +40,7 @@ a {
 
 .site {
   list-style-type: none;
+  list-style: none;
   border-radius: 3px;
   padding: 10px 20px;
   display: grid;
@@ -83,11 +95,45 @@ a {
   text-decoration: none;
 }
 
+@media only screen and (min-width: 775px) {
+  #sites {
+    grid-template-columns: repeat(2, minmax(320px, 1fr)) !important;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  #sites {
+    grid-template-columns: repeat(3, minmax(320px, 1fr)) !important;
+  }
+}
+
+.btn-web {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 100;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.btn-web:hover {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
 #sites {
   padding-inline-start: 0;
   display: grid;
+  align-content: center;
   grid-template-columns: repeat(1, minmax(320px, 1fr));
-  grid-gap: 50px;
+  grid-row-gap: 50px;
 }
 
 #searchBar {
